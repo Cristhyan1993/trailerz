@@ -160,7 +160,7 @@ function App() {
           </div>
         </main>
       ) : (
-        "Sorry, no movies found"
+        "Sorry, no movies found :("
       )}
     </div>
   );
