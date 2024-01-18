@@ -3,6 +3,7 @@ import "./App.css";
 import axios from "axios";
 import MovieCard from "./Components/MovieCard";
 import Youtube from "react-youtube";
+import Footer from "./Components/Footer";
 
 function App() {
   const basePath = "https://api.themoviedb.org/3/";
@@ -19,7 +20,7 @@ function App() {
 
   useEffect(() => {
     fetchMovies();
-  }, []);
+  },[]);
 
   const fetchMovies = async (e) => {
     if (e) {
@@ -162,7 +163,10 @@ function App() {
       ) : (
         "Sorry, no movies found :("
       )}
+
+      <Footer/>
     </div>
+    
   );
 }
 

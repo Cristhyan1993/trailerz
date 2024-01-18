@@ -4,7 +4,7 @@
 }
 body {
   background: rgb(8,32,85);
-background: linear-gradient(0deg, rgba(8,32,85,1) 30%, rgba(45,45,52,1) 94%);
+  background: linear-gradient(0deg, rgba(8,32,85,1) 30%, rgba(45,45,52,1) 94%);
   color: #EBEBEB;
 }
 
@@ -186,4 +186,18 @@ h2 {
   color:  white;
   border: none;
   cursor: pointer;
+}
+
+/**Footer**/
+.footer_container {
+  background-color: rgba(45,45,52,1);
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer_content {
+  max-width: 1020px;
 }
